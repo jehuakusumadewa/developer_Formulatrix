@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ngulik access modifier", "ngulik access modifier\ngulik access modifier.csproj", "{1D015A9F-1126-4042-978C-17FC8E387566}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{1045491A-F9AF-4F92-8137-F95E23A340CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D015A9F-1126-4042-978C-17FC8E387566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D015A9F-1126-4042-978C-17FC8E387566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D015A9F-1126-4042-978C-17FC8E387566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D015A9F-1126-4042-978C-17FC8E387566}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1045491A-F9AF-4F92-8137-F95E23A340CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1045491A-F9AF-4F92-8137-F95E23A340CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1045491A-F9AF-4F92-8137-F95E23A340CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1045491A-F9AF-4F92-8137-F95E23A340CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
