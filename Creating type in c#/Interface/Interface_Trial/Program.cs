@@ -5,6 +5,18 @@
 /*    class ataupun struct                                            */
 /**********************************************************************/
 
+/*Aturan Praktis:
+Gunakan KELAS ketika: "X adalah jenis Y" dan mereka berbagi sifat yang sama
+
+Gunakan INTERFACE ketika: "X bisa melakukan Y" terlepas dari apa X sebenarnya
+
+Jadi, dalam dunia programming:
+
+Warisan Kelas = Hubungan darah, warisan sifat
+
+Interface = Sertifikasi skill, kemampuan yang bisa dipelajari siapapun*/
+
+//contohnya ada di bawah tambahan dikit
 
 
 
@@ -50,6 +62,20 @@ public interface IEnumerator
     void Rest();//method juga
 
 }
+public class Countdown : IEnumerator
+{
+    int Count = 5;
+    public bool MoveNext()
+    {
+        return Count-- > 0;
+    }
+    public object Current => Count;
+
+    public void Rest() => Count = 0;
+}
+
+
+
 /*----------- Implementing interface member virtually -----------*/
 // jadi misal kita, menginplementasikan interface dalam class catur, 
 //nah method di catur ini agar bisa di override sub classnya harus pakai virtual kalau publicaja gk bs.
@@ -126,15 +152,28 @@ public struct Game : IPadel // contohnya seperti ini
     public void Hit() => System.Console.Write("Pukul yang keras");
 }
 
-
-public class Countdown : IEnumerator
+/*----------- tambahan sedikit -----------*/
+public interface ITransformationMagic
 {
-    int Count = 5;
-    public bool MoveNext()
-    {
-        return Count-- > 0;
-    }
-    public object Current => Count;
-
-    public void Rest() => Count = 0;
+    void AnimalTransformation();
 }
+public class Dragon
+{
+    public void DragonMagic() => System.Console.WriteLine("Magic Power bertambah, seiring bertambahnya umur");
+}
+
+public class DragonSlayer : Dragon, ITransformationMagic
+// karena dia mewarisi dragon dia dapat juga dragonmagic
+{
+    public void DragonSlayerMagic() => System.Console.WriteLine("Dapat meng-summon dragon spirit dengan sigil");
+    public void AnimalTransformation() => System.Console.WriteLine("Rhino Transformation"); // magic ini bisa dilakukan karena dipelajari bukan warisan dan bisa di peroleh siapapun
+
+}
+
+public class Goblin : ITransformationMagic
+{
+    public void AnimalTransformation() => System.Console.WriteLine("Lion Transformation"); // goblin bisa menggunakan animal transformation karena sudah mempelajarinya 
+    // bukan magic turunan dari keturunannya/buyutnya 
+}
+
+
