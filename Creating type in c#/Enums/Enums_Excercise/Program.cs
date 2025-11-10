@@ -8,7 +8,10 @@
 }
 
 
-
+public enum BorderSide
+{
+    Left, Right, Top, Bottom
+}
 public enum Hari
 {
     Senin,
