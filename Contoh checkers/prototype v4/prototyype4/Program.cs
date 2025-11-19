@@ -176,7 +176,7 @@ public class CheckersGame
     private int _movesWithoutKing;
     private const int _maxMovesWithoutProgress = 50;
     
-    public CheckersGame(IPlayer player1, IPlayer player2)
+    public CheckersGame(List<IPlayer> _players, IBoard board, StatusType status, int movesWithoutCapture, int movesWithoutKing, int movesWithoutProgress, bool isInMultipleJump, Position _activePieceInJump, Dictionary<IPlayer, List<IPiece>> _playerData)
     {
         _board = new CheckersBoard();
         _listPiece = new List<IPiece>();
