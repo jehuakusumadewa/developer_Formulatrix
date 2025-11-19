@@ -1,0 +1,14 @@
+C:\Users\jehua\Documents\prototype v4\prototyype4\bin\Debug\net9.0\prototyype4.exe
+C:\Users\jehua\Documents\prototype v4\prototyype4\bin\Debug\net9.0\prototyype4.deps.json
+C:\Users\jehua\Documents\prototype v4\prototyype4\bin\Debug\net9.0\prototyype4.runtimeconfig.json
+C:\Users\jehua\Documents\prototype v4\prototyype4\bin\Debug\net9.0\prototyype4.dll
+C:\Users\jehua\Documents\prototype v4\prototyype4\bin\Debug\net9.0\prototyype4.pdb
+C:\Users\jehua\Documents\prototype v4\prototyype4\obj\Debug\net9.0\prototyype4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jehua\Documents\prototype v4\prototyype4\obj\Debug\net9.0\prototyype4.AssemblyInfoInputs.cache
+C:\Users\jehua\Documents\prototype v4\prototyype4\obj\Debug\net9.0\prototyype4.AssemblyInfo.cs
+C:\Users\jehua\Documents\prototype v4\prototyype4\obj\Debug\net9.0\prototyype4.csproj.CoreCompileInputs.cache
+C:\Users\jehua\Documents\prototype v4\prototyype4\obj\Debug\net9.0\prototyype4.dll
+C:\Users\jehua\Documents\prototype v4\prototyype4\obj\Debug\net9.0\refint\prototyype4.dll
+C:\Users\jehua\Documents\prototype v4\prototyype4\obj\Debug\net9.0\prototyype4.pdb
+C:\Users\jehua\Documents\prototype v4\prototyype4\obj\Debug\net9.0\prototyype4.genruntimeconfig.cache
+C:\Users\jehua\Documents\prototype v4\prototyype4\obj\Debug\net9.0\ref\prototyype4.dll
