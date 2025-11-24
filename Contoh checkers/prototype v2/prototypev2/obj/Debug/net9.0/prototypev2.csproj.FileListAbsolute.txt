@@ -1,0 +1,5 @@
+C:\Users\jehua\Documents\developer_Formulatrix\Contoh checkers\prototype v2\prototypev2\obj\Debug\net9.0\prototypev2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jehua\Documents\developer_Formulatrix\Contoh checkers\prototype v2\prototypev2\obj\Debug\net9.0\prototypev2.AssemblyInfoInputs.cache
+C:\Users\jehua\Documents\developer_Formulatrix\Contoh checkers\prototype v2\prototypev2\obj\Debug\net9.0\prototypev2.AssemblyInfo.cs
+C:\Users\jehua\Documents\developer_Formulatrix\Contoh checkers\prototype v2\prototypev2\obj\Debug\net9.0\prototypev2.csproj.CoreCompileInputs.cache
+C:\Users\jehua\Documents\developer_Formulatrix\Contoh checkers\prototype v2\prototypev2\obj\Debug\net9.0\prototypev2.sourcelink.json

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jehua\\Documents\\prototype\\Prototype\\Prototype.csproj",
+      "projectUniqueName": "C:\\Users\\jehua\\Documents\\developer_Formulatrix\\Contoh checkers\\prototype\\Prototype\\Prototype.csproj",
       "projectName": "Prototype",
-      "projectPath": "C:\\Users\\jehua\\Documents\\prototype\\Prototype\\Prototype.csproj",
+      "projectPath": "C:\\Users\\jehua\\Documents\\developer_Formulatrix\\Contoh checkers\\prototype\\Prototype\\Prototype.csproj",
       "packagesPath": "C:\\Users\\jehua\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jehua\\Documents\\prototype\\Prototype\\obj\\",
+      "outputPath": "C:\\Users\\jehua\\Documents\\developer_Formulatrix\\Contoh checkers\\prototype\\Prototype\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jehua\\AppData\\Roaming\\NuGet\\NuGet.Config"

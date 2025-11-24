@@ -8,9 +8,26 @@
   </head>
   <body>
     <h1>Othello</h1>
+    <div class="game-info">
+        <div class="current-player">Current Player: <span id="currentPlayerSpan">-</span></div>
+        <div class="scores">Scores: <span id="scores">Black: 2 | White: 2</span></div>
+        <div class="game-status" id="gameStatus">Black's turn</div>
+        <button id="resetButton">Reset Game</button>
+      </div>
+    
+    
+    
+    
+    
     <div id="board" class="board"></div>
-    <script src="/socket.io/socket.io.js"></script>
-    <!-- <script src="https://cdn.socket.io/4.5.0/socket.io.min.js"></script> -->
+
+    <div class="debug-info">
+      <h3>Debug Info: </h3>
+      <div id="debug">Click on valid moves (green circles) to play</div>
+    </div>
+
+    <!-- <script src="/socket.io/socket.io.js"></script> -->
+    <script src="https://cdn.socket.io/4.5.0/socket.io.min.js"></script>
     <script src="client.js"></script>
   </body>
 </html>
