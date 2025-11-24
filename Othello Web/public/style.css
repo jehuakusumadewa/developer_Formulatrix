@@ -34,3 +34,15 @@
 .piece-black {
   background-color: #000;
 }
+
+.debug-info {
+  margin: 20px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius:5px;
+}
+
+.current-player{
+  font-weight: bold;
+  margin: 10px 0;
+}

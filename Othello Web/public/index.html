@@ -8,9 +8,14 @@
   </head>
   <body>
     <h1>Othello</h1>
+    <div class="current-player">Current Player: <span id="currentPlayerSpan">-</span></div>
     <div id="board" class="board"></div>
-    <script src="/socket.io/socket.io.js"></script>
-    <!-- <script src="https://cdn.socket.io/4.5.0/socket.io.min.js"></script> -->
+    <div class="debug-info">
+      <h3>Debug Info: </h3>
+      <div id="debug"></div>
+    </div>
+    <!-- <script src="/socket.io/socket.io.js"></script> -->
+    <script src="https://cdn.socket.io/4.5.0/socket.io.min.js"></script>
     <script src="client.js"></script>
   </body>
 </html>
