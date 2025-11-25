@@ -14,13 +14,9 @@ const DIRECTIONS = [
   [1, -1],   [1, 0],  [1, 1] 
 ];
 
-
-
-//mendeskripsikan state game
+// mendeskripsikan state game
 let gameState = {
-  board: Array(8).fill().map(()=>
-  Array(8).fill(null)
-  ),
+  board: [],
   currentPlayer: 'black',
   scores: {black: 2, white: 2},
   gameOver: false,
@@ -28,11 +24,16 @@ let gameState = {
 };
 
 function initializeBoard() {
-  //kosongkan board
-  gameState.board = Array(8).fill().map(() => Array(8).fill(null));
+  // kosongkan board dan buat dengan benar
+  gameState.board = [];
+  for (let i = 0; i < 8; i++) {
+    gameState.board[i] = [];
+    for (let j = 0; j < 8; j++) {
+      gameState.board[i][j] = null;
+    }
+  }
 
-  //posisi awal othello
-
+  // posisi awal othello
   gameState.board[3][3] = 'white';
   gameState.board[3][4] = 'black';
   gameState.board[4][3] = 'black';
@@ -42,16 +43,21 @@ function initializeBoard() {
   gameState.scores = {black: 2, white: 2};
   gameState.gameOver = false;
   gameState.validMoves = calculateValidMoves('black');
+  
+  console.log("Board initialized:", gameState.board);
 }
 
-//cek posisi dalam lingkup papan gk
+// cek posisi dalam lingkup papan
 function isValidPosition(row, col) {
   return row >= 0 && row < 8 && col >= 0 && col < 8;
 }
 
-//function buat check apakah move valid
+// function buat check apakah move valid
 function getFlippedPiece(board, row, col, player) {
-    if (board[row][col] !== null) return [];
+    // Perbaikan: Cek validitas posisi dan pastikan board ada
+    if (!isValidPosition(row, col) || !board[row] || board[row][col] !== null) {
+        return [];
+    }
     
     const opponent = player === 'black' ? 'white' : 'black';
     const flipped = [];
@@ -62,14 +68,14 @@ function getFlippedPiece(board, row, col, player) {
         let c = col + dc;
         
         // Cari pieces lawan yang berurutan
-        while (isValidPosition(r, c) && board[r][c] === opponent) {
+        while (isValidPosition(r, c) && board[r] && board[r][c] === opponent) {
             directionFlipped.push([r, c]);
             r += dr;
             c += dc;
         }
         
         // Jika setelah pieces lawan ada pieces sendiri, maka valid
-        if (isValidPosition(r, c) && board[r][c] === player && directionFlipped.length > 0) {
+        if (isValidPosition(r, c) && board[r] && board[r][c] === player && directionFlipped.length > 0) {
             flipped.push(...directionFlipped);
         }
     }
@@ -82,95 +88,89 @@ function calculateValidMoves(player){
 
     for (let row = 0; row < 8; row++){
       for (let col = 0; col < 8; col++){
-        const flipped = getFlippedPiece(gameState.board, row, col, player);
-        if (flipped.length > 0){
-          validMoves.push({row, col, flipped});
+        // Perbaikan: Pastikan board[row] ada sebelum mengakses
+        if (gameState.board[row]) {
+            const flipped = getFlippedPiece(gameState.board, row, col, player);
+            if (flipped.length > 0){
+              validMoves.push({row, col, flipped});
+            }
         }
       }
     }
     return validMoves;
 } 
-//eksekusi move dan flip piece
-function makeMove(row, col, player) 
-{
-  const flipped = getFlippedPiece(gameState, row, col, player);
+
+// eksekusi move dan flip piece
+function makeMove(row, col, player) {
+  // Perbaikan: Validasi tambahan sebelum memproses move
+  if (!isValidPosition(row, col) || !gameState.board[row]) {
+      return false;
+  }
+
+  const flipped = getFlippedPiece(gameState.board, row, col, player);
 
   if(flipped.length === 0) return false;
   
-  //tempatkan piece pemain
+  // tempatkan piece pemain
   gameState.board[row][col] = player;
 
-  //flip pieces lawan
-  flipped.forEach((r, c) => {
-    gameState.board[r][c] = player;
+  // flip pieces lawan
+  flipped.forEach(([r, c]) => {
+    if (isValidPosition(r, c) && gameState.board[r]) {
+        gameState.board[r][c] = player;
+    }
   });
 
-  //upadate scores
-
+  // update scores
   updateScores();
   return true;
-
 }
 
 function updateScores() {
   let black = 0, white = 0;
   for(let row = 0; row < 8; row++){
-    for(let col = 0; col < 8; col++) 
-    {
-      if(gameState.board[ro][col] === 'black') black++
-      if(gameState.board[row][col] === 'white') white++
+    if (gameState.board[row]) {
+        for(let col = 0; col < 8; col++) {
+          if(gameState.board[row][col] === 'black') black++;
+          if(gameState.board[row][col] === 'white') white++;
+        }
     }
   }
   gameState.scores = {black, white};
 }
 
-//ngecheck game
+// ngecheck game
 function checkGameOver() {
   const blackMoves = calculateValidMoves('black');
   const whiteMoves = calculateValidMoves('white');
 
-  if(blackMoves.length === 0 && whiteMoves.length === 0)
-  {
+  if(blackMoves.length === 0 && whiteMoves.length === 0) {
     gameState.gameOver = true;
     return true;
   }
   return false;
 }
 
-
 function switchPlayer() {
   gameState.currentPlayer = gameState.currentPlayer === 'black' ? 'white' : 'black';
   gameState.validMoves = calculateValidMoves(gameState.currentPlayer);
 
-  //jika tidak ada valid moved, skip turn
-
-  if (gameState.validMoves.length === 0 && !checkGameOver())
-  {
+  // jika tidak ada valid moves, skip turn
+  if (gameState.validMoves.length === 0 && !checkGameOver()) {
     switchPlayer();
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//panggil initialisasi
+// panggil initialisasi
 initializeBoard();
 
-//menambahkan event listener untuk event 'cellClick' yang dikirim dari client.
+// Debug: Cek struktur board
+console.log("Board structure check:");
+for (let i = 0; i < 8; i++) {
+    console.log(`Row ${i}:`, gameState.board[i] ? `Length: ${gameState.board[i].length}` : 'UNDEFINED');
+}
+
+// menambahkan event listener untuk event 'cellClick' yang dikirim dari client.
 io.on("connection", (socket) => {
   console.log("User Connected:", socket.id);
 
@@ -186,41 +186,71 @@ io.on("connection", (socket) => {
 
     console.log(`cell clicked by ${socket.id}: [${row}, ${col}] by ${player}`);
 
+    // Validasi bahwa row dan col berada dalam rentang yang benar
+    if (!isValidPosition(row, col)) {
+      console.log(`Invalid position: [${row}, ${col}]`);
+      socket.emit('invalidMove', { 
+        row, col,
+        message: 'Invalid position!'
+      });
+      return;
+    }
+
+    // Validasi tambahan: pastikan baris ada di board
+    if (!gameState.board[row]) {
+      console.log(`Invalid row: [${row}]`);
+      socket.emit('invalidMove', { 
+        row, col,
+        message: 'Invalid board position!'
+      });
+      return;
+    }
+
     const isValidMove = gameState.validMoves.some(move =>
       move.row === row && move.col === col
     );
 
     if (isValidMove) {
-      makeMove(row, col, player);
-      checkGameOver();
+      const success = makeMove(row, col, player);
+      if (success) {
+        checkGameOver();
 
-      if (!gameState.gameOver) {
-        switchPlayer();
+        if (!gameState.gameOver) {
+          switchPlayer();
+        }
+        
+        io.emit('gameState', gameState);
+        console.log(`Valid move: ${player} at [${row}, ${col}]`);
+      } else {
+        console.log(`Move failed: ${player} at [${row}, ${col}]`);
+        socket.emit('invalidMove', { 
+          row, col,
+          message: 'Move failed!'
+        });
       }
-      
-      io.emit('gameState', gameState);
-      console.log(`Valid move: ${player} at [${row}, ${col}]`);
     } else {
-      console.log(`Invalid Move: ${player} at [${row}, ${col}] sudah terisi`);
+      console.log(`Invalid Move: ${player} at [${row}, ${col}]`);
       socket.emit('invalidMove', { 
         row, col,
         message: 'Invalid move!'
       });
     }
-  });
 
   socket.on('resetGame', () => {
-    initializeBoard();
-    io.emit('gameState', gameState);
-    console.log('Game reset');
-  })
+    console.log("Game reset by", socket.id);
+
+    initializeBoard();  // panggil reset board
+
+    io.emit('gameState', gameState); // kirim state baru ke semua client
+  });
+
+
+  });
 
   socket.on('disconnect', () => {
     console.log('User disconnected:', socket.id);
   });
 });
-
-
 
 server.listen(3000, () => {
   console.log("Server running on port 3000");

@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       if (piece) {
         const pieceDiv = document.createElement('div');
-        pieceDiv.className = `piece ${piece}`;
+        pieceDiv.className = `piece piece-${piece}`;;
         cell.appendChild(pieceDiv);
       }
       if(validMoves.some(move =>

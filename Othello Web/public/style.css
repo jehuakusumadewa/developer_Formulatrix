@@ -8,6 +8,7 @@
   background-color: #2e8b57;
   padding: 10px;
   border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Tambahkan shadow untuk depth */
 }
 
 .cell {
@@ -20,10 +21,20 @@
   justify-content: center;
   align-items: center;
   position: relative;
+  transition: background-color 0.2s ease; /* Smooth transition */
 }
+
+.cell:hover {
+  background-color: #3a9c6b; /* Hover effect */
+}
+
 .cell.valid-move {
   background-color: #3cb371;
   cursor: pointer;
+}
+
+.cell.valid-move:hover {
+  background-color: #4cd381; /* Hover effect untuk valid moves */
 }
 
 .cell.valid-move::before {
@@ -40,33 +51,48 @@
   height: 40px;
   border-radius: 50%;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease; /* Animation untuk piece */
+   z-index: 10;
 }
 
 .piece-white {
   background-color: #fff;
+  border: 1px solid #ccc; /* Border untuk kontras */
 }
 
 .piece-black {
   background-color: #000;
+  border: 1px solid #333; /* Border untuk kontras */
 }
 
-.game-info{
+/* Optional: Animation untuk piece yang baru diletakkan */
+.piece.new-piece {
+  animation: placePiece 0.3s ease;
+}
+
+@keyframes placePiece {
+  0% { transform: scale(0.8); opacity: 0.7; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.game-info {
   margin: 20px;
   padding: 15px;
   background-color: #f0f0f0;
   border-radius: 5px;
   text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Tambahkan shadow */
 }
 
 .debug-info {
   margin: 20px;
   padding: 10px;
   background-color: #f0f0f0;
-  border-radius:5px;
+  border-radius: 5px;
   border-left: 4px solid #007bff;
 }
 
-.current-player{
+.current-player {
   font-weight: bold;
   margin: 10px 0;
   font-size: 1.2em;
@@ -81,6 +107,7 @@
   margin: 10px 0;
   font-size: 1.1em;
   color: #d9534f;
+  font-weight: bold; /* Tambahkan bold untuk emphasis */
 }
 
 button {
@@ -92,9 +119,21 @@ button {
   cursor: pointer;
   font-size: 1em;
   margin: 10px;
+  transition: background-color 0.2s ease; /* Smooth transition */
 }
 
 button:hover {
   background-color: #4cae4c;
+  transform: translateY(-1px); /* Subtle lift effect */
 }
 
+/* Optional: Styling untuk current player indicator */
+.current-player.black-turn {
+  color: #000;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.current-player.white-turn {
+  color: #666;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
