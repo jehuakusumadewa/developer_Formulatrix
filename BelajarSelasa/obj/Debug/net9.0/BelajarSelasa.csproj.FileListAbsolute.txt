@@ -1,0 +1,14 @@
+C:\Users\jehua\Documents\excersise\BelajarSelasa\bin\Debug\net9.0\BelajarSelasa.exe
+C:\Users\jehua\Documents\excersise\BelajarSelasa\bin\Debug\net9.0\BelajarSelasa.deps.json
+C:\Users\jehua\Documents\excersise\BelajarSelasa\bin\Debug\net9.0\BelajarSelasa.runtimeconfig.json
+C:\Users\jehua\Documents\excersise\BelajarSelasa\bin\Debug\net9.0\BelajarSelasa.dll
+C:\Users\jehua\Documents\excersise\BelajarSelasa\bin\Debug\net9.0\BelajarSelasa.pdb
+C:\Users\jehua\Documents\excersise\BelajarSelasa\obj\Debug\net9.0\BelajarSelasa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jehua\Documents\excersise\BelajarSelasa\obj\Debug\net9.0\BelajarSelasa.AssemblyInfoInputs.cache
+C:\Users\jehua\Documents\excersise\BelajarSelasa\obj\Debug\net9.0\BelajarSelasa.AssemblyInfo.cs
+C:\Users\jehua\Documents\excersise\BelajarSelasa\obj\Debug\net9.0\BelajarSelasa.csproj.CoreCompileInputs.cache
+C:\Users\jehua\Documents\excersise\BelajarSelasa\obj\Debug\net9.0\BelajarSelasa.dll
+C:\Users\jehua\Documents\excersise\BelajarSelasa\obj\Debug\net9.0\refint\BelajarSelasa.dll
+C:\Users\jehua\Documents\excersise\BelajarSelasa\obj\Debug\net9.0\BelajarSelasa.pdb
+C:\Users\jehua\Documents\excersise\BelajarSelasa\obj\Debug\net9.0\BelajarSelasa.genruntimeconfig.cache
+C:\Users\jehua\Documents\excersise\BelajarSelasa\obj\Debug\net9.0\ref\BelajarSelasa.dll

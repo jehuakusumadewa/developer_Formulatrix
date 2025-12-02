@@ -1,0 +1,14 @@
+C:\Users\jehua\Documents\excersise\BelajarSelasa\Perpustakaan\bin\Debug\net9.0\Perpustakaan.exe
+C:\Users\jehua\Documents\excersise\BelajarSelasa\Perpustakaan\bin\Debug\net9.0\Perpustakaan.deps.json
+C:\Users\jehua\Documents\excersise\BelajarSelasa\Perpustakaan\bin\Debug\net9.0\Perpustakaan.runtimeconfig.json
+C:\Users\jehua\Documents\excersise\BelajarSelasa\Perpustakaan\bin\Debug\net9.0\Perpustakaan.dll
+C:\Users\jehua\Documents\excersise\BelajarSelasa\Perpustakaan\bin\Debug\net9.0\Perpustakaan.pdb
+C:\Users\jehua\Documents\excersise\BelajarSelasa\Perpustakaan\obj\Debug\net9.0\Perpustakaan.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jehua\Documents\excersise\BelajarSelasa\Perpustakaan\obj\Debug\net9.0\Perpustakaan.AssemblyInfoInputs.cache
+C:\Users\jehua\Documents\excersise\BelajarSelasa\Perpustakaan\obj\Debug\net9.0\Perpustakaan.AssemblyInfo.cs
+C:\Users\jehua\Documents\excersise\BelajarSelasa\Perpustakaan\obj\Debug\net9.0\Perpustakaan.csproj.CoreCompileInputs.cache
+C:\Users\jehua\Documents\excersise\BelajarSelasa\Perpustakaan\obj\Debug\net9.0\Perpustakaan.dll
+C:\Users\jehua\Documents\excersise\BelajarSelasa\Perpustakaan\obj\Debug\net9.0\refint\Perpustakaan.dll
+C:\Users\jehua\Documents\excersise\BelajarSelasa\Perpustakaan\obj\Debug\net9.0\Perpustakaan.pdb
+C:\Users\jehua\Documents\excersise\BelajarSelasa\Perpustakaan\obj\Debug\net9.0\Perpustakaan.genruntimeconfig.cache
+C:\Users\jehua\Documents\excersise\BelajarSelasa\Perpustakaan\obj\Debug\net9.0\ref\Perpustakaan.dll

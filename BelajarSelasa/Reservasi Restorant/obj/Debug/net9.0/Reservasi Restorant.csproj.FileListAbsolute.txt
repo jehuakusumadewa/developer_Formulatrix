@@ -1,0 +1,14 @@
+C:\Users\jehua\Documents\excersise\BelajarSelasa\Reservasi Restorant\bin\Debug\net9.0\Reservasi Restorant.exe
+C:\Users\jehua\Documents\excersise\BelajarSelasa\Reservasi Restorant\bin\Debug\net9.0\Reservasi Restorant.deps.json
+C:\Users\jehua\Documents\excersise\BelajarSelasa\Reservasi Restorant\bin\Debug\net9.0\Reservasi Restorant.runtimeconfig.json
+C:\Users\jehua\Documents\excersise\BelajarSelasa\Reservasi Restorant\bin\Debug\net9.0\Reservasi Restorant.dll
+C:\Users\jehua\Documents\excersise\BelajarSelasa\Reservasi Restorant\bin\Debug\net9.0\Reservasi Restorant.pdb
+C:\Users\jehua\Documents\excersise\BelajarSelasa\Reservasi Restorant\obj\Debug\net9.0\Reservasi Restorant.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jehua\Documents\excersise\BelajarSelasa\Reservasi Restorant\obj\Debug\net9.0\Reservasi Restorant.AssemblyInfoInputs.cache
+C:\Users\jehua\Documents\excersise\BelajarSelasa\Reservasi Restorant\obj\Debug\net9.0\Reservasi Restorant.AssemblyInfo.cs
+C:\Users\jehua\Documents\excersise\BelajarSelasa\Reservasi Restorant\obj\Debug\net9.0\Reservasi Restorant.csproj.CoreCompileInputs.cache
+C:\Users\jehua\Documents\excersise\BelajarSelasa\Reservasi Restorant\obj\Debug\net9.0\Reservasi Restorant.dll
+C:\Users\jehua\Documents\excersise\BelajarSelasa\Reservasi Restorant\obj\Debug\net9.0\refint\Reservasi Restorant.dll
+C:\Users\jehua\Documents\excersise\BelajarSelasa\Reservasi Restorant\obj\Debug\net9.0\Reservasi Restorant.pdb
+C:\Users\jehua\Documents\excersise\BelajarSelasa\Reservasi Restorant\obj\Debug\net9.0\Reservasi Restorant.genruntimeconfig.cache
+C:\Users\jehua\Documents\excersise\BelajarSelasa\Reservasi Restorant\obj\Debug\net9.0\ref\Reservasi Restorant.dll
