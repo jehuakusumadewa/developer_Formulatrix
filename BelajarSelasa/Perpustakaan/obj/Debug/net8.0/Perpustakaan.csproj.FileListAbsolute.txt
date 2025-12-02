@@ -1,0 +1,5 @@
+C:\Users\acer\Documents\Latihan\developer_Formulatrix\BelajarSelasa\Perpustakaan\obj\Debug\net8.0\Perpustakaan.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\acer\Documents\Latihan\developer_Formulatrix\BelajarSelasa\Perpustakaan\obj\Debug\net8.0\Perpustakaan.AssemblyInfoInputs.cache
+C:\Users\acer\Documents\Latihan\developer_Formulatrix\BelajarSelasa\Perpustakaan\obj\Debug\net8.0\Perpustakaan.AssemblyInfo.cs
+C:\Users\acer\Documents\Latihan\developer_Formulatrix\BelajarSelasa\Perpustakaan\obj\Debug\net8.0\Perpustakaan.csproj.CoreCompileInputs.cache
+C:\Users\acer\Documents\Latihan\developer_Formulatrix\BelajarSelasa\Perpustakaan\obj\Debug\net8.0\Perpustakaan.sourcelink.json

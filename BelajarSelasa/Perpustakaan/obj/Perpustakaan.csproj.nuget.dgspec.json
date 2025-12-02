@@ -1,30 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jehua\\Documents\\excersise\\BelajarSelasa\\Perpustakaan\\Perpustakaan.csproj": {}
+    "C:\\Users\\acer\\Documents\\Latihan\\developer_Formulatrix\\BelajarSelasa\\Perpustakaan\\Perpustakaan.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jehua\\Documents\\excersise\\BelajarSelasa\\Perpustakaan\\Perpustakaan.csproj": {
+    "C:\\Users\\acer\\Documents\\Latihan\\developer_Formulatrix\\BelajarSelasa\\Perpustakaan\\Perpustakaan.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jehua\\Documents\\excersise\\BelajarSelasa\\Perpustakaan\\Perpustakaan.csproj",
+        "projectUniqueName": "C:\\Users\\acer\\Documents\\Latihan\\developer_Formulatrix\\BelajarSelasa\\Perpustakaan\\Perpustakaan.csproj",
         "projectName": "Perpustakaan",
-        "projectPath": "C:\\Users\\jehua\\Documents\\excersise\\BelajarSelasa\\Perpustakaan\\Perpustakaan.csproj",
-        "packagesPath": "C:\\Users\\jehua\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jehua\\Documents\\excersise\\BelajarSelasa\\Perpustakaan\\obj\\",
+        "projectPath": "C:\\Users\\acer\\Documents\\Latihan\\developer_Formulatrix\\BelajarSelasa\\Perpustakaan\\Perpustakaan.csproj",
+        "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\acer\\Documents\\Latihan\\developer_Formulatrix\\BelajarSelasa\\Perpustakaan\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jehua\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -37,12 +39,11 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -59,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

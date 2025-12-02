@@ -23,7 +23,7 @@ namespace SimpleTodoList.Services
                 return;
             }
 
-            var task = new TodoItem(0, title);
+            var task = new TodoItem(0, title, false);
             _repository.Add(task);
             Console.WriteLine($"Task '{title}' ditambahkan.");
         }
