@@ -1,0 +1,10 @@
+2025-12-03 09:57:17.449 +07:00 [INF] Aplikasi dimulai
+2025-12-03 09:57:17.553 +07:00 [DBG] Operasi berjalan
+2025-12-03 09:57:17.555 +07:00 [WRN] Peringatan: sesuatu perlu diperhatikan
+2025-12-03 09:57:17.556 +07:00 [ERR] Terjadi kesalahan
+System.Exception: Contoh error
+2025-12-03 09:57:17.560 +07:00 [INF] Aplikasi selesai
+sqllite
+sintac sama
+posgree untuk production
+
