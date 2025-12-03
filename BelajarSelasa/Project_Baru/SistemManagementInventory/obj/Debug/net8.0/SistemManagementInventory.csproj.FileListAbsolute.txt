@@ -1,0 +1,15 @@
+C:\Users\acer\Documents\Latihan\developer_Formulatrix\BelajarSelasa\Project_Baru\SistemManagementInventory\bin\Debug\net8.0\SistemManagementInventory.exe
+C:\Users\acer\Documents\Latihan\developer_Formulatrix\BelajarSelasa\Project_Baru\SistemManagementInventory\bin\Debug\net8.0\SistemManagementInventory.deps.json
+C:\Users\acer\Documents\Latihan\developer_Formulatrix\BelajarSelasa\Project_Baru\SistemManagementInventory\bin\Debug\net8.0\SistemManagementInventory.runtimeconfig.json
+C:\Users\acer\Documents\Latihan\developer_Formulatrix\BelajarSelasa\Project_Baru\SistemManagementInventory\bin\Debug\net8.0\SistemManagementInventory.dll
+C:\Users\acer\Documents\Latihan\developer_Formulatrix\BelajarSelasa\Project_Baru\SistemManagementInventory\bin\Debug\net8.0\SistemManagementInventory.pdb
+C:\Users\acer\Documents\Latihan\developer_Formulatrix\BelajarSelasa\Project_Baru\SistemManagementInventory\obj\Debug\net8.0\SistemManagementInventory.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\acer\Documents\Latihan\developer_Formulatrix\BelajarSelasa\Project_Baru\SistemManagementInventory\obj\Debug\net8.0\SistemManagementInventory.AssemblyInfoInputs.cache
+C:\Users\acer\Documents\Latihan\developer_Formulatrix\BelajarSelasa\Project_Baru\SistemManagementInventory\obj\Debug\net8.0\SistemManagementInventory.AssemblyInfo.cs
+C:\Users\acer\Documents\Latihan\developer_Formulatrix\BelajarSelasa\Project_Baru\SistemManagementInventory\obj\Debug\net8.0\SistemManagementInventory.csproj.CoreCompileInputs.cache
+C:\Users\acer\Documents\Latihan\developer_Formulatrix\BelajarSelasa\Project_Baru\SistemManagementInventory\obj\Debug\net8.0\SistemManagementInventory.sourcelink.json
+C:\Users\acer\Documents\Latihan\developer_Formulatrix\BelajarSelasa\Project_Baru\SistemManagementInventory\obj\Debug\net8.0\SistemManagementInventory.dll
+C:\Users\acer\Documents\Latihan\developer_Formulatrix\BelajarSelasa\Project_Baru\SistemManagementInventory\obj\Debug\net8.0\refint\SistemManagementInventory.dll
+C:\Users\acer\Documents\Latihan\developer_Formulatrix\BelajarSelasa\Project_Baru\SistemManagementInventory\obj\Debug\net8.0\SistemManagementInventory.pdb
+C:\Users\acer\Documents\Latihan\developer_Formulatrix\BelajarSelasa\Project_Baru\SistemManagementInventory\obj\Debug\net8.0\SistemManagementInventory.genruntimeconfig.cache
+C:\Users\acer\Documents\Latihan\developer_Formulatrix\BelajarSelasa\Project_Baru\SistemManagementInventory\obj\Debug\net8.0\ref\SistemManagementInventory.dll
