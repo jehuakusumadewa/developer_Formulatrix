@@ -1,0 +1,12 @@
+C:\Users\jehua\Documents\experiment\developer_Formulatrix\unit-testing-using-nunit\PrimeService\bin\Debug\net9.0\PrimeService.deps.json
+C:\Users\jehua\Documents\experiment\developer_Formulatrix\unit-testing-using-nunit\PrimeService\bin\Debug\net9.0\PrimeService.dll
+C:\Users\jehua\Documents\experiment\developer_Formulatrix\unit-testing-using-nunit\PrimeService\bin\Debug\net9.0\PrimeService.pdb
+C:\Users\jehua\Documents\experiment\developer_Formulatrix\unit-testing-using-nunit\PrimeService\obj\Debug\net9.0\PrimeService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jehua\Documents\experiment\developer_Formulatrix\unit-testing-using-nunit\PrimeService\obj\Debug\net9.0\PrimeService.AssemblyInfoInputs.cache
+C:\Users\jehua\Documents\experiment\developer_Formulatrix\unit-testing-using-nunit\PrimeService\obj\Debug\net9.0\PrimeService.AssemblyInfo.cs
+C:\Users\jehua\Documents\experiment\developer_Formulatrix\unit-testing-using-nunit\PrimeService\obj\Debug\net9.0\PrimeService.csproj.CoreCompileInputs.cache
+C:\Users\jehua\Documents\experiment\developer_Formulatrix\unit-testing-using-nunit\PrimeService\obj\Debug\net9.0\PrimeService.sourcelink.json
+C:\Users\jehua\Documents\experiment\developer_Formulatrix\unit-testing-using-nunit\PrimeService\obj\Debug\net9.0\PrimeService.dll
+C:\Users\jehua\Documents\experiment\developer_Formulatrix\unit-testing-using-nunit\PrimeService\obj\Debug\net9.0\refint\PrimeService.dll
+C:\Users\jehua\Documents\experiment\developer_Formulatrix\unit-testing-using-nunit\PrimeService\obj\Debug\net9.0\PrimeService.pdb
+C:\Users\jehua\Documents\experiment\developer_Formulatrix\unit-testing-using-nunit\PrimeService\obj\Debug\net9.0\ref\PrimeService.dll
