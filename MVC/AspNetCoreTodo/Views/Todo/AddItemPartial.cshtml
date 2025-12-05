@@ -1,0 +1,20 @@
+@* Views/Todo/AddItemPartial.cshtml *@
+@model TodoItem
+
+<form asp-action="AddItem" method="POST">
+    @Html.AntiForgeryToken()
+    
+    <div class="form-group">
+        <label asp-for="Title">Add a new item:</label>
+        <input asp-for="Title" class="form-control" 
+               placeholder="Enter todo title" 
+               required
+               aria-describedby="titleHelp">
+        <small id="titleHelp" class="form-text text-muted">
+            Enter a descriptive title for your todo
+        </small>
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Add</button>
+</form>
