@@ -1,0 +1,15 @@
+C:\Users\jehua\Documents\experiment\developer_Formulatrix\State Design Pattern\State\obj\Debug\net9.0\State.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jehua\Documents\experiment\developer_Formulatrix\State Design Pattern\State\obj\Debug\net9.0\State.AssemblyInfoInputs.cache
+C:\Users\jehua\Documents\experiment\developer_Formulatrix\State Design Pattern\State\obj\Debug\net9.0\State.AssemblyInfo.cs
+C:\Users\jehua\Documents\experiment\developer_Formulatrix\State Design Pattern\State\obj\Debug\net9.0\State.csproj.CoreCompileInputs.cache
+C:\Users\jehua\Documents\experiment\developer_Formulatrix\State Design Pattern\State\obj\Debug\net9.0\State.sourcelink.json
+C:\Users\jehua\Documents\experiment\developer_Formulatrix\State Design Pattern\State\bin\Debug\net9.0\State.exe
+C:\Users\jehua\Documents\experiment\developer_Formulatrix\State Design Pattern\State\bin\Debug\net9.0\State.deps.json
+C:\Users\jehua\Documents\experiment\developer_Formulatrix\State Design Pattern\State\bin\Debug\net9.0\State.runtimeconfig.json
+C:\Users\jehua\Documents\experiment\developer_Formulatrix\State Design Pattern\State\bin\Debug\net9.0\State.dll
+C:\Users\jehua\Documents\experiment\developer_Formulatrix\State Design Pattern\State\bin\Debug\net9.0\State.pdb
+C:\Users\jehua\Documents\experiment\developer_Formulatrix\State Design Pattern\State\obj\Debug\net9.0\State.dll
+C:\Users\jehua\Documents\experiment\developer_Formulatrix\State Design Pattern\State\obj\Debug\net9.0\refint\State.dll
+C:\Users\jehua\Documents\experiment\developer_Formulatrix\State Design Pattern\State\obj\Debug\net9.0\State.pdb
+C:\Users\jehua\Documents\experiment\developer_Formulatrix\State Design Pattern\State\obj\Debug\net9.0\State.genruntimeconfig.cache
+C:\Users\jehua\Documents\experiment\developer_Formulatrix\State Design Pattern\State\obj\Debug\net9.0\ref\State.dll
